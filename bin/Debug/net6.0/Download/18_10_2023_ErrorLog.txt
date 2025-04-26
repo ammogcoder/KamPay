@@ -1,0 +1,15 @@
+=======================================18/10/2023 20:58:57=======================================
+Unauthorized Request
+---------------Stack Trace---------------
+   at WAECeRegAPI.CodeBased.BaseController.CheckKey(String Proof) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\BaseController.cs:line 13
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.UserLogin(String Proof, LoginUserModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 2033
+=======================================18/10/2023 20:59:23=======================================
+Unauthorized Request
+---------------Stack Trace---------------
+   at WAECeRegAPI.CodeBased.BaseController.CheckKey(String Proof) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\BaseController.cs:line 13
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.UserLogin(String Proof, LoginUserModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 2033
+=======================================18/10/2023 20:59:29=======================================
+Unauthorized Request
+---------------Stack Trace---------------
+   at WAECeRegAPI.CodeBased.BaseController.CheckKey(String Proof) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\BaseController.cs:line 13
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.UserLogin(String Proof, LoginUserModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 2033

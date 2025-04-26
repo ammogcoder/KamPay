@@ -1,0 +1,12 @@
+=======================================13/03/2024 16:21:23=======================================
+UnAuthorized Access
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input)
+=======================================13/03/2024 16:22:42=======================================
+UnAuthorized Access
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input)
+=======================================13/03/2024 16:23:12=======================================
+UnAuthorized Access
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input)

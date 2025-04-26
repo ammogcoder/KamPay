@@ -1,0 +1,67 @@
+=======================================8/11/2023 1:39:06 PM=======================================
+Index was outside the bounds of the array.
+---------------Stack Trace---------------
+   at WAECeRegAPI.clsCommonResources.GetTimeSpan(String Val) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 99
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1812
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772
+=======================================8/11/2023 1:45:39 PM=======================================
+Conversion from string "2023-08-08T08" to type 'Integer' is not valid.
+---------------Stack Trace---------------
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at WAECeRegAPI.clsCommonResources.GetTimeSpan(String Val) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 104
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1812
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772
+**********************Inner Exception**********************
+=======================================8/11/2023 1:45:40 PM=======================================
+Input string was not in a correct format.
+---------------Stack Trace---------------
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+=======================================8/11/2023 1:48:37 PM=======================================
+Conversion from string "2023-08-08T08" to type 'Integer' is not valid.
+---------------Stack Trace---------------
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at WAECeRegAPI.clsCommonResources.GetTimeSpan(String Val) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 104
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1812
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772
+**********************Inner Exception**********************
+=======================================8/11/2023 1:48:37 PM=======================================
+Input string was not in a correct format.
+---------------Stack Trace---------------
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+=======================================8/11/2023 1:54:49 PM=======================================
+Conversion from string "2023-08-03T08" to type 'Integer' is not valid.
+---------------Stack Trace---------------
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at WAECeRegAPI.clsCommonResources.GetTimeSpan(String Val) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 104
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1812
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772
+**********************Inner Exception**********************
+=======================================8/11/2023 1:54:50 PM=======================================
+Input string was not in a correct format.
+---------------Stack Trace---------------
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+=======================================8/11/2023 2:00:08 PM=======================================
+Index was outside the bounds of the array.
+---------------Stack Trace---------------
+   at WAECeRegAPI.clsCommonResources.GetTimeSpan(String Val) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 99
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1812
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772
+=======================================8/11/2023 2:00:56 PM=======================================
+Index was outside the bounds of the array.
+---------------Stack Trace---------------
+   at WAECeRegAPI.clsCommonResources.GetTimeSpan(String Val) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 99
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1812
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772
+=======================================8/11/2023 2:03:39 PM=======================================
+Error in processing, please try again
+---------------Stack Trace---------------
+   at WAECeRegAPI.clsCommonResources.FormatTableDates(DataSet& ds) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\clsCommonResources.cs:line 69
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 773
+=======================================8/11/2023 3:12:36 PM=======================================
+SqlDbType.Time overflow.  Value '29.16:00:00' is out of range.  Must be between 00:00:00.0000000 and 23:59:59.9999999.
+---------------Stack Trace---------------
+   at WAECeRegAPI.DatabaseExtraction.save2ExamInfo(Int32 DateID, String ExamID, Boolean Active, DateTime OpenDate, String OpenTime, DateTime CloseDate, String CloseTime, Int32 ExamYear, Double FormPrice, DateTime Upload, String UploadTime, DateTime Amendment, String AmendmentTime, DateTime OnlineAmendment, String OnlineAmendmentTime, DateTime CASSUpload, String CASSUploadTime, DateTime LateUpload, String LateUploadTime, Boolean AllowPassportAmmendment, Single NamesCorrectionPercentage, Int32 CurrentUserID) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\CodeBased\DatabaseExtraction.cs:line 1819
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.save2ExamInfo(String Proof, save2ExamInfoModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 772

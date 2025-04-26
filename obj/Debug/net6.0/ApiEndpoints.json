@@ -1,0 +1,157 @@
+[
+  {
+    "ContainingType": "Kpakam.Controllers.SBProcessorController",
+    "Method": "GetEncryptionKey",
+    "RelativePath": "SBProcessor/{CallerID}/GetEncryptionKey",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CallerID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Input",
+        "Type": "Kpakam.Model.SeerbitEncryptionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Kpakam.Controllers.SBProcessorController",
+    "Method": "GetPaymentStatus",
+    "RelativePath": "SBProcessor/{CallerID}/GetPaymentStatus/{PayReference}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CallerID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PayReference",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Kpakam.Controllers.SBProcessorController",
+    "Method": "InitiatePayment",
+    "RelativePath": "SBProcessor/{CallerID}/InitiatePayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CallerID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Input",
+        "Type": "Kpakam.Model.SBInitiateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Kpakam.Controllers.UPProcessorController",
+    "Method": "GetPaymentStatus",
+    "RelativePath": "UPProcessor/{CallerID}/GetPaymentStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CallerID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Input",
+        "Type": "GetPaymentStatusModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Kpakam.Controllers.UPProcessorController",
+    "Method": "InitiatePayment",
+    "RelativePath": "UPProcessor/{CallerID}/InitiatePayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CallerID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Input",
+        "Type": "InitiatePaymentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Object",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

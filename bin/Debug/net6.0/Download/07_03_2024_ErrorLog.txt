@@ -1,0 +1,18 @@
+=======================================07/03/2024 12:21:16=======================================
+Invalid object name 'Integrators'.
+---------------Stack Trace---------------
+   at Kpakam.CodeBased.dataAccess.GetCurrentIntegrator(String IntKey) in C:\Users\ammog\WAEC\C#\Kpakam\CodeBased\dataAccess.cs:line 72
+   at Kpakam.Controllers.SBProcessorController.isAccessValid(String IntKey) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 35
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 91
+=======================================07/03/2024 12:22:03=======================================
+Invalid object name 'Integrators'.
+---------------Stack Trace---------------
+   at Kpakam.CodeBased.dataAccess.GetCurrentIntegrator(String IntKey) in C:\Users\ammog\WAEC\C#\Kpakam\CodeBased\dataAccess.cs:line 72
+   at Kpakam.Controllers.SBProcessorController.isAccessValid(String IntKey) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 35
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 91
+=======================================07/03/2024 12:31:40=======================================
+Error in processing, please try again
+---------------Stack Trace---------------
+   at System.Net.IPAddress.get_Address()
+   at Kpakam.Controllers.SBProcessorController.isAccessValid(String IntKey) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 36
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 91

@@ -1,0 +1,12 @@
+=======================================09/03/2024 00:50:48=======================================
+Error Generating Payment
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 112
+=======================================09/03/2024 00:59:19=======================================
+Error Generating Payment
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 112
+=======================================09/03/2024 01:00:40=======================================
+Error Generating Payment
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 112

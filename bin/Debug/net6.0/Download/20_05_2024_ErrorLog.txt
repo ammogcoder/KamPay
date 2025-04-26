@@ -1,0 +1,4 @@
+=======================================20/05/2024 17:46:01=======================================
+UnAuthorized Access
+---------------Stack Trace---------------
+   at Kpakam.Controllers.SBProcessorController.InitiatePayment(String CallerID, SBInitiateModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\SBProcessorController.cs:line 102

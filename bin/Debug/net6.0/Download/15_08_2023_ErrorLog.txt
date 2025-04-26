@@ -1,0 +1,4 @@
+=======================================8/15/2023 11:24:37 AM=======================================
+Invalid Unsername or Password
+---------------Stack Trace---------------
+   at WAECeRegAPI.Controllers.MgtModuleBaseController.UserLogin(String Proof, LoginUserModel Input) in C:\Users\ammog\Source\Repos\WAECeRegAPI\WAECeRegAPI\Controllers\MgtModuleBaseController.cs:line 2047

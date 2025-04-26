@@ -1,0 +1,27 @@
+=======================================08/05/2024 10:49:14=======================================
+One or more errors occurred. (The SSL connection could not be established, see inner exception.)
+---------------Stack Trace---------------
+   at Kpakam.ModClasses.UP.UPAction.QueryOrderResponse(CreateOrderRequest data, String UPUrl) in C:\Users\ammog\WAEC\C#\Kpakam\Model\UPAction.cs:line 169
+   at Kpakam.Controllers.UPProcessorController.InitiatePayment(String CallerID, InitiatePaymentModel Input) in C:\Users\ammog\WAEC\C#\Kpakam\Controllers\UPProcessorController.cs:line 40
+**********************Inner Exception**********************
+=======================================08/05/2024 10:49:14=======================================
+The SSL connection could not be established, see inner exception.
+---------------Stack Trace---------------
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+**********************Inner Exception**********************
+=======================================08/05/2024 10:49:14=======================================
+The remote certificate is invalid because of errors in the certificate chain: UntrustedRoot
+---------------Stack Trace---------------
+   at System.Net.Security.SslStream.SendAuthResetSignal(ProtocolToken message, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
