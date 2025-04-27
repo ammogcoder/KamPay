@@ -17,6 +17,23 @@ jobs:
           username: _json_key
           password: ${{ secrets.GCP_SA_KEY }}
 
-      - name: Build docker image
+      - name: Build Docker image
         run: |
-          docker build -f Dockerfile-api -t gcr.io/skilful-vertex-159007
+          docker build -f Dockerfile-api -t gcr.io/calm-pagoda-458101-h4/kpakam:$GITHUB_SHA .
+
+      - name: Push Docker image to GCR
+        run: |
+          docker push gcr.io/calm-pagoda-458101-h4/kpakam:$GITHUB_SHA
+
+      - id: "auth"
+        uses: "google-github-actions/auth@v2"
+        with:
+          credentials_json: "${{ secrets.GCP_SA_KEY }}"
+
+      - id: "deploy"
+        run: |-
+          gcloud run deploy kpakam \
+          --image=gcr.io/calm-pagoda-458101-h4/your-image-name:${{ github.sha }} \
+          --platform=managed \
+          --region=europe-west4 \
+          --allow-unauthenticated
