@@ -19,7 +19,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -f Dockerfile-api -t gcr.io/calm-pagoda-458101-h4/kam:$GITHUB_SHA .
+          docker build -t gcr.io/calm-pagoda-458101-h4/kam:$GITHUB_SHA .
 
       - name: Push Docker image to GCR
         run: |
