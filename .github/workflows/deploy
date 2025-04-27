@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set Up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          registry: gcr.io
+          username: _json_key
+          password: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Build Docker image
+        run: |
+          docker build -t gcr.io/calm-pagoda-458101-h4/kam:$GITHUB_SHA . 
+            
+      - id: "auth"
+        uses: "google-github-actions/auth@v2"
+        with:
+          credentials_json: "${{ secrets.GCP_SA_KEY }}"
+
+      - id: "deploy"
+        run: |-
+          gcloud run deploy kam \
+          --image=gcr.io/calm-pagoda-458101-h4/kpakam \
+          --platform=managed \
+          --region=us-west1 \
+          --allow-unauthenticated
