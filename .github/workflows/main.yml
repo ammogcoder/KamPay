@@ -19,11 +19,11 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -f Dockerfile-api -t gcr.io/calm-pagoda-458101-h4/kpakam:$GITHUB_SHA .
+          docker build -f Dockerfile-api -t gcr.io/calm-pagoda-458101-h4/kam:$GITHUB_SHA .
 
       - name: Push Docker image to GCR
         run: |
-          docker push gcr.io/calm-pagoda-458101-h4/kpakam:$GITHUB_SHA
+          docker push gcr.io/calm-pagoda-458101-h4/kam:$GITHUB_SHA
 
       - id: "auth"
         uses: "google-github-actions/auth@v2"
@@ -33,7 +33,7 @@ jobs:
       - id: "deploy"
         run: |-
           gcloud run deploy kpakam \
-          --image=gcr.io/calm-pagoda-458101-h4/your-image-name:${{ github.sha }} \
+          --image=gcr.io/calm-pagoda-458101-h4/kam:${{ github.sha }} \
           --platform=managed \
           --region=europe-west4 \
           --allow-unauthenticated
