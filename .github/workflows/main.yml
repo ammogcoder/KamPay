@@ -32,7 +32,7 @@ jobs:
 
       - id: "deploy"
         run: |-
-          gcloud run deploy kpakam \
+          gcloud run deploy kam \
           --image=gcr.io/calm-pagoda-458101-h4/kam:${{ github.sha }} \
           --platform=managed \
           --region=europe-west4 \
