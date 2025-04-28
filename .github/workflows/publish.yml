@@ -26,7 +26,7 @@ jobs:
         with:
           credentials_json: "${{ secrets.GCP_SA_KEY }}"
 
-      - id: "deploy "
+      - id: "deploy"
         run: |-
           gcloud run deploy kam \
           --image=gcr.io/calm-pagoda-458101-h4/kpakam \
