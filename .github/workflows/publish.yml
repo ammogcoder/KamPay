@@ -32,5 +32,4 @@ jobs:
           --image=gcr.io/calm-pagoda-458101-h4/kpakam \
           --platform=managed \
           --region=us-west1 \
-          --port=8080 \
           --allow-unauthenticated
